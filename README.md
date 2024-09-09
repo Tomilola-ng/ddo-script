@@ -29,11 +29,11 @@ To install Docker on your droplet, you can follow [this guide](https://marketpla
    cd ddo-script
    ```
 
-2. Open the `deploy.sh` file and configure your deployment variables:
+2. Open the `deploy.sh` file and navigate to lines `9 to 11` and configure your deployment variables:
    ```bash
-   export DROPLET_IP="your_droplet_ip"
-   export CONTAINER_NAME="your_container_name"
-   export IMAGE_NAME="your_dockerhub_username/your_image_name"
+   DROPLET_IP="your_droplet_ip"
+   CONTAINER_NAME="your_container_name"
+   IMAGE_NAME="your_dockerhub_username/your_image_name"
    ```
 
    Make sure to replace the placeholders with your own values:
